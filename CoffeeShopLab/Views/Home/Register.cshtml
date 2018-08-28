@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Register";
+}
+
+<h2>Register</h2>
+
+<form action="/Home/SaveUser" method="post">
+    <label>First Name</label><input type="text" name="firstName" class="form-control"/>
+    <label>Last Name</label><input type="text" name="lastName" class="form-control"/>
+    <label>Email</label><input type="email" name="email" class="form-control"/>
+    <label>Password</label><input type="password" name="password" class="form-control"/>
+    <input type="submit" value="Confirm" class="form-control"/>
+</form>
